@@ -4,9 +4,10 @@ import "./index.css";
 import App from "./App.jsx";
 import Greeting from "./components/Greeting.jsx";
 import Food from "./components/Food.jsx";
+import Person from "./components/Person.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Food />
+    <Person />
   </StrictMode>
 );
